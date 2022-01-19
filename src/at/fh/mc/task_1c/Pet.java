@@ -1,7 +1,6 @@
 package at.fh.mc.task_1c;
 
 import javax.xml.bind.annotation.*;
-import java.lang.reflect.Type;
 import java.util.Arrays;
 import java.util.Date;
 

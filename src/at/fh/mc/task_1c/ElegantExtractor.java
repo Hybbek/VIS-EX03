@@ -10,7 +10,6 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.StringReader;
 import java.io.StringWriter;
-import java.lang.reflect.Type;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -27,11 +26,11 @@ public class ElegantExtractor {
      *
      * @param _args
      */
-    public static <SensorValue> void main(String[] _args) throws ParseException, JAXBException {
+    public static void main(String[] _args) throws ParseException, JAXBException {
 
         System.setProperty("javax.xml.bind.JAXBContextFactory","org.eclipse.persistence.jaxb.JAXBContextFactory");
 
-        Date birthday = new SimpleDateFormat("dd/mm/yyyy").parse("10/02/1940");
+        Date birthday = new SimpleDateFormat("dd/MM/yyyy").parse("10/02/1940");
         String[] vaccs = {"cat flue", "feline distemper", "rabies", "leucosis"};
 
 
