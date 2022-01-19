@@ -36,6 +36,10 @@ public class Pet {
         CAT, DOG, MOUSE, BIRD
     }
 
+    public Pet(){
+
+    }
+
     public Pet(String _name, String _nickName, Date _birthday, Type _typ, String[] _vaccinations, String _id){
         mName = _name;
         mNickName = _nickName;
