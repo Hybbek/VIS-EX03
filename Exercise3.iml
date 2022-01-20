@@ -40,5 +40,16 @@
         <jarDirectory url="file://$MODULE_DIR$/JAXWS--Libraries (1)" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Desktop/Vis_jaxws/wsImport_out" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Desktop/Vis_jaxws/wsImport_out" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

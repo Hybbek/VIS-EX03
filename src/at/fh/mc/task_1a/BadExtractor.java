@@ -10,7 +10,7 @@ public class BadExtractor {
     /**
      * main-method: fetches the relevant information of the XML fragment and creates a WSG84
      * Object with the fetched information.
-     * @param args = startup arguments you can pass to this method; not used
+     * @param _args = startup arguments you can pass to this method; not used
      */
     public static void main(String[] _args) {
         //XML fragment to fetch information from
