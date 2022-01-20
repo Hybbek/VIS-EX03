@@ -27,7 +27,7 @@ public class ElegantExtractor {
         //needed for JSON convertion
         System.setProperty("javax.xml.bind.JAXBContextFactory","org.eclipse.persistence.jaxb.JAXBContextFactory");
 
-        //variables used to instanciate Pet object
+        //variables used to instantiate Pet object
         Date birthday = new SimpleDateFormat("dd/MM/yyyy").parse("10/02/1940");
         String[] vaccs = {"cat flue", "feline distemper", "rabies", "leucosis"};
 
